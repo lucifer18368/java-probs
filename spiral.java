@@ -12,8 +12,9 @@ public static void main(String args[])
     
     left = 0;  
     top  = n-1;  
-    counter = 1;  
-    for(i=1; i<=n/2; i++, left++, top--)  
+    counter = 1;
+    i=1;
+    while(i<=n/2)  
     {  
         //fill from left to right  
         for(j=left; j<=top; j++)  
@@ -39,7 +40,11 @@ public static void main(String args[])
             matrix[j][left] = counter;
             counter++;
         }  
-    }  
+    
+        left++;
+        top--; 
+        i++;
+    }
     //print the pattern  
     for(i=0; i<n; i++)  
     {  
