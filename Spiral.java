@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class sprial
+public class Sprial
 {  
 public static void main(String args[])  
 {  
