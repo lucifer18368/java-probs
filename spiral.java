@@ -14,7 +14,7 @@ public static void main(String args[])
     top  = n-1;  
     counter = 1;
     i=1;
-    while(i<=n/2)  
+    while(i<=n/2+1)  
     {  
         //fill from left to right  
         for(j=left; j<=top; j++)  
