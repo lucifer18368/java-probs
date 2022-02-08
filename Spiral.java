@@ -13,8 +13,8 @@ public static void main(String args[])
     left = 0;  
     top  = n-1;  
     counter = 1;
-    i=1;
-    while(i<=n/2+1)  
+    iteration=1;
+    while(iteration<=n/2+1)  
     {  
         //fill from left to right  
         for(j=left; j<=top; j++)  
@@ -43,7 +43,7 @@ public static void main(String args[])
     
         left++;
         top--; 
-        i++;
+        iteration++;
     }
     //print the pattern  
     for(i=0; i<n; i++)  
